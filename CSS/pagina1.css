@@ -50,7 +50,7 @@ body {
   }
   
   .box:hover:before {
-    border-color: #f80707;
+    border-color: #009;
     height: 100%;
     transform: translateX(0);
     transition: .3s transform linear, .3s height linear .3s;
@@ -81,8 +81,10 @@ body {
 }
 header {
   background-color: gray;
- 
   color:white;
   display: flex;
   flex-direction: row;
+  flex-grow: initial;
+  border: 2px solid black;
 }
+
