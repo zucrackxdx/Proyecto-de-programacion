@@ -1,4 +1,4 @@
-
+/*este es el codigo css de la pagina principal*/
 body { 
     margin:0;
     background-color: #e2e2e2;
@@ -98,7 +98,7 @@ header {
 }
 
 .inicio a {
-  margin-bottom: 10px; /* Espacio entre los botones */
+  margin-bottom: 10px;
 }
 
 h4 {
