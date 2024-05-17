@@ -4,12 +4,6 @@ body {
     background-color: #e2e2e2;
     font-family: Arial, Helvetica, sans-serif;
 }
-.inicio_sesion {
-    text-align: center;
-}
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
 .box {
     width: 140px;
     height: auto;
@@ -57,7 +51,7 @@ body {
   }
   
   .box:hover:before {
-    border-color: #f80707;
+    border-color: #071ff8;
     height: 100%;
     transform: translateX(0);
     transition: .3s transform linear, .3s height linear .3s;
@@ -71,22 +65,13 @@ body {
   }
   
   button {
-    color: black;
+    color: white;
     text-decoration: none;
     cursor: pointer;
     outline: none;
     border: none;
     background: transparent;
   }
-  .principal {
-    padding: 5px;
-    margin: 0%;
-  }
-.resaltar {
-    color:red;
-    font-size: 25px;
-}
-
 .boton {
     height: 50px;
     margin: 5px;
@@ -131,4 +116,59 @@ body {
   .inicio {
     margin-bottom:10px;
   }
-
+  
+  .border{
+    border-radius: 10px;
+    border: outset;
+    border-color: black;
+    width: 700px;
+    height: 700px;
+  }
+  .iniciar_sesion {
+    text-align: center;
+  }
+  .Logo {
+    width: 150px;
+}
+header {
+  display: flex;
+  padding: 0%;
+  margin: 0%;
+  background-color: #080d11;
+  border:2px solid black;
+  font-size: 30px;
+  text-shadow: 3px 3px 6px rgba(0, 0, 255, 10);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.texto {
+  color:white;
+  font-size: 16px;
+}
+form {
+  background-color: #ededed;
+  padding:10px 0;
+  max-width: 500px;
+  margin:auto;
+  box-shadow: 0px 0px 35px #0006;
+  margin-top: 50px;
+}
+input  {
+  margin: 5px;
+  width:100%;
+  box-sizing: border-box;
+  padding:6px 12px;
+  border:none;
+  border-left: 2px solid #999;
+  box-shadow: 0px 0px 15px #0001;
+  border-radius: 4px;
+  color:navy;
+}
+.form_input {
+  padding: 6 20px;
+}
+fieldset {
+  margin: 20px 0px;
+  border:2px solid #666;
+}

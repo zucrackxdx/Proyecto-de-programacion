@@ -39,6 +39,7 @@ body {
     inset 5px 5px 10px #212121, inset -5px -5px 10px #212121;
   box-shadow: -1px -5px 15px #41465b, 5px 5px 15px #41465b,
     inset 5px 5px 10px #212121, inset -5px -5px 10px #212121;
+    
 }
 
 .boton:hover {
@@ -55,4 +56,35 @@ body {
   color: #d6d6d6;
   -webkit-transition: 100ms;
   transition: 100ms;
+}
+.titulo{
+  color: #000;
+  text-align: center;
+  margin: 30px;
+  position: center;
+  background-color: #bbb;
+  
+}
+
+
+.border{
+  border-radius: 10px;
+  border: outset;
+  border-color: black;
+  width: 750px;
+  height: 700px;
+  background-color: #ccc;
+  
+}
+*{
+  text-align: center;
+  position: center;
+  margin: 40px;
+  position: center;
+  
+}
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
