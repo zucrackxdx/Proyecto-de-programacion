@@ -128,7 +128,7 @@ body {
     text-align: center;
   }
   .Logo {
-    width: 150px;
+    width: 100px;
 }
 header {
   display: flex;
@@ -172,3 +172,21 @@ fieldset {
   margin: 20px 0px;
   border:2px solid #666;
 }
+.checkbox {
+  width:auto;
+}
+.form_input {
+  padding: 6 20px;
+}
+.form_input {
+  padding: 6 20px;
+  }
+  fieldset {
+  margin: 20px 0px;
+  border:2px solid #666;
+  }
+  button {
+    text-align: center;
+    padding: 5px;
+  }
+  

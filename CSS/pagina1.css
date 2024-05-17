@@ -1,9 +1,14 @@
 /*este es el codigo css de la pagina principal*/
 body { 
-  box-sizing: border-box;
+    box-sizing: border-box;
     margin:0;
-    background-color: #e2e2e2;
+    background-image: url(..//IMAGENES/fondiu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: Arial, Helvetica, sans-serif;
+    color: #006AB8;
+    background-color: #000000;
+    
 }
 .btn_pagina1 {
     width: 140px;
@@ -87,12 +92,15 @@ header {
   margin: 0%;
   background-color: #080d11;
   border:2px solid black;
+  box-shadow: 0 0 35px 0 rgb(255, 255, 255);
   font-size: 30px;
   text-shadow: 3px 3px 6px rgba(0, 0, 255, 10);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
 }
+
 
 .inicio {
   display: flex;
@@ -105,9 +113,14 @@ header {
 
 h4 {
   font-weight: bold;
+  text-align: center;
+  margin: 0;
 }
 .Logo {
-    width: 7%;
+    width: 100px;
+}
+.logo:hover {
+    background-color: #000000;
 }
 
 .centered-div {
@@ -185,21 +198,91 @@ h4 {
   float: right;
 }
 .conteiner {
-  background-color: #205377;
-  align-self: center;
+  display: flex; 
   width: 90%;
   padding: 100px;
-  height: 100px;
-}
-.conteiner_data {
-  background-color: #5e5e5e;
- display:flex;
- align-items: center;
- justify-content: center;
-}
-.container {
-  display: flex;
+  height: 100px ;
+  align-self: center;
   justify-content: center;
   align-items: center;
-  background-color: #006AB8;
+}
+.conteiner_data {
+  text-align: center;
+  color:white;
+  margin: auto;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: linear-gradient(transparent ,transparent,#999999, rgb(44, 44, 44));
+ background-repeat: no-repeat;
+}
+body {
+  background-image: url(..//IMAGENES/fondiu.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  }
+.divcentro  {
+  font-size: larger;
+    background-color: rgba(41, 41, 41, 0.938);
+    max-width: 980px;
+    border-radius: 7px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+  text-align: center;
+  padding: 0%;
+  margin: 0%;
+  background-color: #080d11;
+  border:2px solid black;
+  box-shadow: 0 0 35px 0 rgb(255, 255, 255);
+  font-size: 30px;
+  text-shadow: 3px 3px 6px rgba(0, 0, 255, 10);
+  display: flex;
+  align-items: center;
+  position: sticky;
+}
+.Botons {
+  text-align: center;
+  font-size: 18px;
+  color: #e1e1e1;
+  font-family: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+.Botons:focus,
+.Botons:hover {
+  color: #fff;
+}
+
+.Botons:focus:after,
+.Botons:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.Botons:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
 }
