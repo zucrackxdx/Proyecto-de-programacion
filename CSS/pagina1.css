@@ -2,10 +2,10 @@
 body { 
   box-sizing: border-box;
     margin:0;
-    background-color: rgb(90, 90, 90);
+    background-color: #e2e2e2;
     font-family: Arial, Helvetica, sans-serif;
 }
-.box {
+.btn_pagina1 {
     width: 140px;
     height: auto;
     float: left;
@@ -22,7 +22,7 @@ body {
     color: #e2e2e2;
   }
   
-  .box:before {
+  .btn_pagina1:before {
     position: absolute;
     content: '';
     left: 0;
@@ -35,7 +35,7 @@ body {
     transform: translateX(100%);
   }
   
-  .box:after {
+  .btn_pagina1:after {
     position: absolute;
     content: '';
     top: 0;
@@ -48,18 +48,18 @@ body {
     transform: translateX(-100%);
   }
   
-  .box:hover {
+  .btn_pagina1:hover {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   }
   
-  .box:hover:before {
+  .btn_pagina1:hover:before {
     border-color: #009;
     height: 100%;
     transform: translateX(0);
     transition: .3s transform linear, .3s height linear .3s;
   }
   
-  .box:hover:after {
+  .btn_pagina1:hover:after {
     border-color: #868686;
     height: 100%;
     transform: translateX(0);
@@ -107,13 +107,7 @@ h4 {
   font-weight: bold;
 }
 .Logo {
-    width: 150px;
-}
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* Esto es opcional, para centrar verticalmente en toda la pantalla */
+    width: 7%;
 }
 
 .centered-div {
@@ -184,4 +178,28 @@ h4 {
   color: #006AB8;
   text-decoration: underline;
   text-align: justify;
+}
+.inicio_y_registro{
+  display: flex;
+  flex-direction: column;
+  float: right;
+}
+.conteiner {
+  background-color: #205377;
+  align-self: center;
+  width: 90%;
+  padding: 100px;
+  height: 100px;
+}
+.conteiner_data {
+  background-color: #5e5e5e;
+ display:flex;
+ align-items: center;
+ justify-content: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #006AB8;
 }
