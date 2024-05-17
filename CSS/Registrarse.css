@@ -1,9 +1,16 @@
 /*Este es el codigo CSS de la pagina de el registro de sesion*/
-
-body { 
-  margin:0;
-  background-color: #e2e2e2;
-  font-family: Arial, Helvetica, sans-serif;
+  body { 
+    box-sizing: border-box;
+    margin:0;
+    background-image: url(..//IMAGENES/fondiu_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #006AB8;
+    background-color: #000000;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .box {
   width: 140px;
@@ -146,7 +153,7 @@ padding:10px 0;
 max-width: 500px;
 margin:auto;
 box-shadow: 0px 0px 35px #0006;
-margin-top: 50px;
+margin-top: 50px;   
 }
 input  {
 margin: 5px;

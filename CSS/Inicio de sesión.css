@@ -1,8 +1,16 @@
 /*Este es el codigo css de la pagina de inicio de sesion*/
 body { 
-    margin:0;
-    background-color: #e2e2e2;
-    font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  margin:0;
+  background-image: url(..//IMAGENES/fondiu_2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #006AB8;
+  background-color: #000000;
+background-size: contain;
+background-repeat: no-repeat;
+background-attachment: fixed;
 }
 .box {
     width: 140px;
@@ -58,7 +66,7 @@ body {
   }
   
   .box:hover:after {
-    border-color: #262626;
+    border-color: #b1b1b1;
     height: 100%;
     transform: translateX(0);
     transition: .3s transform linear, .3s height linear .5s;
@@ -189,4 +197,10 @@ fieldset {
     text-align: center;
     padding: 5px;
   }
+  .Enviar{
+    color: #000000;
+    border: outset;
+    margin: 10px 220px;
+  }
+    
   

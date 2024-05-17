@@ -8,6 +8,10 @@ los carros fueron generado mediante la siguiente pagina
 
 https://firefly.adobe.com/generate/images?id=de271ad6-69e4-420a-b631-c94db04de549
 
+La barra de busqueda fue sacada del siguiente video  
+
+https://youtu.be/6s4HFGD03EE?si=RsqjC391rnKXrleA
+
 
 
 el pop up es lo siguiente
@@ -20,3 +24,4 @@ el pop up es lo siguiente
             </div>
         </div>
 <script src="pop_up.js"></script>
+

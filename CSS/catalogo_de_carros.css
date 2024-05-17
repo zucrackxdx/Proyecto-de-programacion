@@ -1,6 +1,8 @@
-* {
-    text-align: center;
+.informacion_de_catalogo{
+margin: 10px;
+text-align: center; 
 }
+
 body { 
     box-sizing: border-box;
       margin:0;
@@ -17,7 +19,7 @@ header {
     margin: 0%;
     background-color: #080d11;
     border:2px solid black;
-   box-shadow: 0 0 35px 0 blue;
+    box-shadow: 0 0 35px 0 blue;
     font-size: 30px;
     text-shadow: 3px 3px 6px rgba(0, 0, 255, 10);
     display: flex;
@@ -109,7 +111,7 @@ float: right;
 
 
 *{
-margin: 0; 
+margin: 0%; 
 padding: 0;
 box-sizing: border-box;
 font-family: "Open Sans";
@@ -122,12 +124,12 @@ body{
 
 
 
-nav{
+*nav{
 max-width: 900px;
-margin: auto;
+margin: 30%;
 background-color: #333;
 font-size: 20px;
-margin-top: 50px;
+margin-top: 70px;
 
 }
 
