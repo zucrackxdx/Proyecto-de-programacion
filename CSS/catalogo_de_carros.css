@@ -1,3 +1,186 @@
-* {
-    text-align: center;
+.informacion_de_catalogo{
+margin: 10px;
+text-align: center; 
 }
+
+body { 
+    box-sizing: border-box;
+      margin:0;
+      background-image: url(..//IMAGENES/fondiu.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-attachment:fixed ; 
+      font-family: Arial, Helvetica, sans-serif;
+      color: #006AB8;
+}
+
+header {
+    padding: 0%;
+    margin: 0%;
+    background-color: #080d11;
+    border:2px solid black;
+    box-shadow: 0 0 35px 0 blue;
+    font-size: 30px;
+    text-shadow: 3px 3px 6px rgba(0, 0, 255, 10);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: -webkit-sticky;
+  }
+  .Logo {
+    width: 7%;
+}
+
+.btn_pagina1 {
+    width: 140px;
+    height: auto;
+    float: left;
+    transition: .5s linear;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 15px;
+    text-align: center;
+    margin: 0 5px;
+    background: transparent;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #e2e2e2;
+  }
+  
+  .btn_pagina1:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 100%;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(100%);
+  }
+  
+  .btn_pagina1:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    border-top: 4px solid transparent;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(-100%);
+  }
+  
+  .btn_pagina1:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .btn_pagina1:hover:before {
+    border-color: #009;
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .3s;
+  }
+  
+  .btn_pagina1:hover:after {
+    border-color: #868686;
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .5s;
+  }
+  
+  button {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: transparent;
+  }
+
+
+.inicio_y_registro{
+  display: flex;
+flex-direction: column;
+float: right;
+}
+
+
+
+*{
+margin: 0%; 
+padding: 0;
+box-sizing: border-box;
+font-family: "Open Sans";
+}
+
+body{
+    background-image: url(..//IMAGENES/fondiu.jpg);
+    background-size: cover;
+}
+
+
+
+*nav{
+max-width: 900px;
+margin: 30%;
+background-color: #333;
+font-size: 20px;
+margin-top: 70px;
+
+}
+
+.menu-horizontal{
+list-style: none;
+display: flex;
+justify-content: space-around;
+}
+
+.menu-horizontal > li > a{
+display: block;
+padding: 15px 20px;
+color: white;
+text-decoration: none;
+}
+.menu-horizontal > li:hover{
+background-color: #009;
+}
+    
+.menu-vertical{
+position: absolute;
+display: none;
+list-style: none;
+width: 200px;
+background-color: rgba(0, 0, 0, .5);
+}
+.menu-horizontal li:hover .menu-vertical{
+    display: block
+}
+
+.menu-vertical li:hover{
+background-color: black;
+}
+
+.menu-vertical li a{
+display: block;
+color: white;
+padding: 15px 15px 15px 20px;
+text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,9 +1,10 @@
 <!DOCTYPE html>
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="IMAGENES/pixlr-image-generator-5b0d460b-2269-4f1c-a101-bb268368e1ce (2).png">
-    <title>Inciar Sesión</title>
+    <title>Iniciar Sesión</title>
     <link rel="stylesheet" href="CSS/Inicio de sesión.css">
 </head>
 <body>
@@ -17,13 +18,13 @@
               <legend>INFORMACION BASICA</legend>
               <input type="text" placeholder="Email"><br>
               <input type="text" placeholder="Contraseña"><br>
+              <div class="form_input">
+              <label>Acepto los <a href="terms.html" target="_blank">terminos y condiciones</a>
+              <input type="checkbox" class="checkbox">
+              </label>
+          </div>
             </fieldset>
-            <fieldset>
-              <legend>INFORMACION DE CONTACTO</legend>
-              <input type="email" placeholder="Nombre completo"><br>
-              <input type="text" placeholder="Telefono">
-              <input type="submit" value="Enviar">
-          </form>
+            <button class="Enviar" type="submit">Enviar</button>
        </form>
 </body>
 </html>

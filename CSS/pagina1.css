@@ -1,73 +1,95 @@
 /*este es el codigo css de la pagina principal*/
 body { 
-  box-sizing: border-box;
+    box-sizing: border-box;
     margin:0;
-    background-color: #e2e2e2;
+    background-image: url(..//IMAGENES/fondiu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: Arial, Helvetica, sans-serif;
+    color: #006AB8;
+    background-color: #000000;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1, h2 {
+ text-align: center;
+ color:white;
+ padding:0%;
+ margin:0%;
+ margin-bottom: 10px;
 }
 .btn_pagina1 {
-    width: 140px;
-    height: auto;
-    float: left;
-    transition: .5s linear;
-    position: relative;
-    display: block;
-    overflow: hidden;
-    padding: 15px;
-    text-align: center;
-    margin: 0 5px;
-    background: transparent;
-    text-transform: uppercase;
-    font-weight: 900;
-    color: #e2e2e2;
-  }
-  
-  .btn_pagina1:before {
-    position: absolute;
-    content: '';
-    left: 0;
-    bottom: 0;
-    height: 4px;
-    width: 100%;
-    border-bottom: 4px solid transparent;
-    border-left: 4px solid transparent;
-    box-sizing: border-box;
-    transform: translateX(100%);
-  }
-  
-  .btn_pagina1:after {
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 4px;
-    border-top: 4px solid transparent;
-    border-right: 4px solid transparent;
-    box-sizing: border-box;
-    transform: translateX(-100%);
-  }
-  
-  .btn_pagina1:hover {
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-  }
-  
-  .btn_pagina1:hover:before {
-    border-color: #009;
-    height: 100%;
-    transform: translateX(0);
-    transition: .3s transform linear, .3s height linear .3s;
-  }
-  
-  .btn_pagina1:hover:after {
-    border-color: #868686;
-    height: 100%;
-    transform: translateX(0);
-    transition: .3s transform linear, .3s height linear .5s;
-  }
+  width: 140px;
+  height: auto;
+  float: left;
+  transition: .5s linear;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  padding: 15px;
+  text-align: center;
+  margin: 0 5px;
+  background: transparent;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.btn_pagina1:before {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  height: 4px;
+  width: 100%;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid transparent;
+  box-sizing: border-box;
+  transform: translateX(100%);
+}
+
+.btn_pagina1:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  border-top: 4px solid transparent;
+  border-right: 4px solid transparent;
+  box-sizing: border-box;
+  transform: translateX(-100%);
+}
+
+.btn_pagina1:hover {
+  box-shadow: 0 5px 15px rgba(253, 253, 253, 0.5);
+}
+
+.btn_pagina1:hover:before {
+  border-color: #ffffff;
+  height: 100%;
+  transform: translateX(0);
+  transition: .3s transform linear, .3s height linear .3s;
+}
+
+.btn_pagina1:hover:after {
+  border-color: #1100ff;
+  height: 100%;
+  transform: translateX(0);
+  transition: .3s transform linear, .3s height linear .5s;
+}
+
+button {
+  color: rgb(218, 218, 218);
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: transparent;
+}
   
   button {
-    color: black;
+    color: rgb(233, 233, 233);
     text-decoration: none;
     cursor: pointer;
     outline: none;
@@ -87,12 +109,15 @@ header {
   margin: 0%;
   background-color: #080d11;
   border:2px solid black;
+  box-shadow: 0 0 35px 0 rgb(255, 255, 255);
   font-size: 30px;
   text-shadow: 3px 3px 6px rgba(0, 0, 255, 10);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
 }
+
 
 .inicio {
   display: flex;
@@ -105,9 +130,14 @@ header {
 
 h4 {
   font-weight: bold;
+  margin: 0;
+  text-align: center;
 }
 .Logo {
-    width: 7%;
+    width: 100px;
+}
+.logo:hover {
+    background-color: #000000;
 }
 
 .centered-div {
@@ -185,21 +215,218 @@ h4 {
   float: right;
 }
 .conteiner {
-  background-color: #205377;
-  align-self: center;
+  display: flex; 
   width: 90%;
   padding: 100px;
-  height: 100px;
-}
-.conteiner_data {
-  background-color: #5e5e5e;
- display:flex;
- align-items: center;
- justify-content: center;
-}
-.container {
-  display: flex;
+  height: 100px ;
+  align-self: center;
   justify-content: center;
   align-items: center;
-  background-color: #006AB8;
+}
+.conteiner_data {
+  text-align: left;
+  color:white;
+  margin: auto;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: linear-gradient(transparent, #72727288, #4b4b4b);
+ background-repeat: no-repeat;
+}
+.divcentro  {
+    height: 1600px;
+    font-size: larger;
+    background-color: rgba(41, 41, 41, 0.938);
+    max-width: 980px;
+    border-radius: 7px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+  text-align: center;
+  padding: 0%;
+  margin: 0%;
+  background-color: #080d11;
+  border:2px solid black;
+  box-shadow: 0 0 35px 0 rgb(255, 255, 255);
+  font-size: 30px;
+  text-shadow: 3px 3px 6px rgba(0, 0, 255, 10);
+  display: flex;
+  align-items: center;
+  position: sticky;
+  height: 250px;
+  align-self: center;
+  flex-direction: column;
+}
+.Botons {
+  text-align: center;
+  font-size: 18px;
+  color: #e1e1e1;
+  font-family: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+.Botons:focus,
+.Botons:hover {
+  color: #fff;
+}
+
+.Botons:focus:after,
+.Botons:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.Botons:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+a {
+  text-decoration: none;
+  color:white;
+}
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+/*este es el codigo del carousel*/
+
+.carousel {
+  position: relative;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+  margin-top: 26px;
+}
+
+.carousel-inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel-open:checked + .carousel-item {
+  position: static;
+  opacity: 100;
+}
+
+.carousel-item {
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: opacity 0.6s ease-out;
+  transition: opacity 0.6s ease-out;
+}
+
+.carousel-item img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.carousel-control {
+  background: rgba(0, 0, 0, 0.28);
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+  font-size: 40px;
+  height: 40px;
+  line-height: 35px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  cursor: pointer;
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  text-align: center;
+  width: 40px;
+  z-index: 10;
+}
+
+.carousel-control.prev {
+  left: 2%;
+}
+
+.carousel-control.next {
+  right: 2%;
+}
+
+.carousel-control:hover {
+  background: rgba(0, 0, 0, 0.8);
+  color: #aaaaaa;
+}
+
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3 {
+  display: block;
+}
+
+.carousel-indicators {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 2%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 10;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.carousel-bullet {
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 35px;
+}
+
+.carousel-bullet:hover {
+  color: #aaaaaa;
+}
+
+#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+  color: #428bca;
+}
+
+#title {
+  width: 100%;
+  position: absolute;
+  padding: 0px;
+  margin: 0px auto;
+  text-align: center;
+  font-size: 27px;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Open Sans', sans-serif;
+  z-index: 9999;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+}
+.minititulo {
+  text-align: center;
 }
